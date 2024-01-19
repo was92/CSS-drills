@@ -1,0 +1,90 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: light gray;
+}
+
+h2, p, a {
+    text-align: center;
+}
+
+.readme-wrapper {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+}
+
+.single-adjust {
+    color: red;
+    font-weight: bold;
+}
+
+.boxes {
+    display: block;
+    margin: 3em;
+    padding: 1em;
+    border: 3em;
+    border-radius: 3em;
+    width: 30em;
+}
+
+#box1 {
+    background-color: green;
+    margin: 1em;
+    padding: 1em;
+    border: 1em solid orange;
+    width: 30em;
+}
+
+#box2 {
+    background-color: rgb(23, 148, 201);
+    margin: 1em;
+    padding: 1em;
+    border: 1em solid rgb(225, 83, 107);
+    width: 30em;
+}
+#box3 {
+    background-color: rgb(233, 233, 59);
+    margin: 1em;
+    padding: 1em;
+    border: 1em solid rgb(224, 15, 15);
+    width: 30em;
+}
+
+#box4 {
+    background-color: rgb(124, 38, 124);
+    margin: 1em;
+    padding: 1em;
+    border: 1em solid rgb(241, 118, 139);
+    width: 30em;
+}
+.image-tag {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: olive;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.image-tag {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: olive;
+    margin-right: 10px;
+}
+.tv-header {
+    color: red;
+
+}
